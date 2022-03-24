@@ -1,4 +1,4 @@
-{% set version = "1.0.2" %}
+{% set version = "1.0.3" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/fansi_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/fansi/fansi_{{ version }}.tar.gz
-  sha256: d1e2cf2e10613abe19071e3dab7c564ebcf85ad13cbee25fa1999267af01b557
+  sha256: 86a7b83d8c9d28baebbde310cd0b459d0950a9c7ff1a6276ce5858f6a89bc06a
 
 build:
   merge_build_host: true  # [win]
