@@ -3,6 +3,7 @@ About r-fansi-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-fansi-feedstock/blob/main/LICENSE.txt)
 
+
 About r-fansi
 -------------
 
@@ -11,6 +12,7 @@ Home: https://github.com/brodieG/fansi
 Package license: GPL-2.0-or-later
 
 Summary: Counterparts to R string manipulation functions that account for the effects of ANSI text formatting control sequences.
+
 About r-fansi
 -------------
 
