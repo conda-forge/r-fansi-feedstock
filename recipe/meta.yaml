@@ -1,4 +1,4 @@
-{% set version = "1.0.6" %}
+{% set version = "1.0.7" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/fansi_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/fansi/fansi_{{ version }}.tar.gz
-  sha256: ea9dc690dfe50a7fad7c5eb863c157d70385512173574c56f4253b6dfe431863
+  sha256: 32a43f073aeb5c1d31c804014b95c2cb644bb4132119fcea313838b7ea4eb792
 
 build:
-  number: 2
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
